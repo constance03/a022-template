@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    background-color: pink;
+    color:red;
+}
+
+/* button {
+    margin-left: 50vw;     esse é um jeito de fazer sem o header
+} */
+
+header {
+    border: 1px solid black;
+    text-align: center;
+}

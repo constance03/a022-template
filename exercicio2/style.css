@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    border: 1px solid black;
+}
+
+/* unidades relativas: 
+
+width = 1200px
+vw (1% da tela) = view width
+vh (1% da tela) = view height
+lrem = 16px */
+
+.altura-header {
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.altura-main {
+    height: 100vh;
+    text-align: center;
+    position: absolute;  /*posicionar a main*/
+    width: 100vw;
+    top:92px;
+}
+
+.altura-footer {
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
